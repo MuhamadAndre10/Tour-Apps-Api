@@ -1,0 +1,8 @@
+middleware adalah function yang memiliki akses ke request object, response object dan function selanjutnya dalam request response cycle/
+
+
+fungsi next(), adalah fungsi yang digunakan untuk memanggil middleware berikutnya, 
+kata fungsi next() bisa diberi nama apa saja, tetapi menurut konvensi selalu dinamai (next)
+
+
+Refactoring atau mengubah kode atas menjadi lebih baik tanpa mengubah fungsinya.
