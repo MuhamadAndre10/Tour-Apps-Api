@@ -8,6 +8,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const tourRoute = require('./routes/tourRoutes');
 const userRoute = require('./routes/userRouter');
@@ -98,6 +99,7 @@ const limiter = rateLimit({
 
 app.use('/api', limiter);
 //test middleware
+app.use(compression());
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   // console.info(req.cookies);
