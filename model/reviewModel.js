@@ -88,7 +88,6 @@ reviewSchema.post('save', function () {
 // pre : database belum terdapat perubahan
 reviewSchema.pre(/^findOneAnd/, async function (next) {
   this.rvew = await this.findOne();
-  // console.info(this.rvew);
   next();
 });
 

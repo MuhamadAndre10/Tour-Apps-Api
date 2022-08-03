@@ -56,6 +56,9 @@ app.use(
   })
 );
 
+app.use(compression());
+// compression = to compress static files sent to the client. example file json or html
+
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
