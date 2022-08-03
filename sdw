@@ -1,0 +1,23 @@
+[33mcommit 4def420794c03107b91b0916f1e04f613806e871[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Muhamad Andre <andrepriyanto95@gmail.com>
+Date:   Wed Aug 3 22:18:32 2022 +0700
+
+    add compression package
+
+[33mcommit 128ff7be5acaeca8cd290ca80c4291bd49fdfb9f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Muhamad Andre <andrepriyanto95@gmail.com>
+Date:   Wed Aug 3 08:22:44 2022 +0700
+
+    modify email.js
+
+[33mcommit 97192adf14925f7204c961ff75fcedcceda5257d[m
+Author: Muhamad Andre <andrepriyanto95@gmail.com>
+Date:   Sun Jul 24 23:09:06 2022 +0700
+
+    add readme.md
+
+[33mcommit bb7872de1093ae31b87d1d3699333c707c6a26e5[m[33m ([m[1;32m_M[m[33m)[m
+Author: Muhamad Andre <andrepriyanto95@gmail.com>
+Date:   Sun Jul 24 22:01:07 2022 +0700
+
+    Initial commit
