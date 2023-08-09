@@ -1,3 +1,11 @@
-# Natours Application
+## Natours Application
 
-built using modern technologies: node.js, express, mongoDB, and mongoos
+Aplikasi Natours merupakan aplikasi wisata, aplikasi ini merupakan latihan dari kursus udemy. <br>
+Fitur applikasi
+- Authentication and Authorization
+- Forgort Password
+- Calculation ratings
+- CRUD wisata
+- Maps
+
+**Copyright**
